@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
+#include <conio.h>
 #define NAME 0
 #define NUMBER 1
 #define ALL 2
@@ -751,10 +752,9 @@ int main(){
 								Clear(0,10,24);
 							}
 							p=Input();
-							if(t==0){
-								head=p;
-								t=Count(head);
-							}else Connect(head,p);
+							if(t==0)head=p;
+							else Connect(head,p);
+							t=Count(head);
 						}while(p!=NULL);
 						HideCursor();
 						if(t!=item){
