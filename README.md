@@ -59,8 +59,6 @@ __注册密码：2014052421__
 ###查询成绩：
 ![](screenshot/screenshot1.png)
 
-![](screenshot/screenshot3.png)
-
 上图为查询成绩界面，有三种查询方式可供选择：个人成绩，分数段成绩和不及格成绩。
 
 ###个人成绩查询：
@@ -81,6 +79,30 @@ __注册密码：2014052421__
 ![](screenshot/screenshot19.png)
 
 返回所有人所有不及格的科目
+
+###成绩排序
+![](screenshot/screenshot20.png)
+
+支持多种关键字排序，根据提示选择关键字与排序顺序即可完成操作，排序结束后会询问时候显示所有人成绩，若是则调用第六个功能显示成绩，否则返回主菜单。__排序完的成绩并没有立即保存回文件__
+
+###显示成绩
+![](screenshot/screenshot22.png)
+
+![](screenshot/screenshot5.png)
+
+![](screenshot/screenshot4.png)
+
+可选择显示所有同学成绩或按班级显示成绩。若无学生，则提示无学生记录，否则格式化打印学生成绩并统计人数显示在左下角
+
+###保存成绩
+![](screenshot/screenshot21.png)
+
+手动保存成绩，将学生成绩保存到外存文件`studata.txt`中
+
+###退出登录
+![](screenshot/screenshot23.png)
+
+若成绩未修改或已保存修改，则正常返回登录界面，否则询问用户是否要保存修改。
 
 代码细节与实现
 --------
