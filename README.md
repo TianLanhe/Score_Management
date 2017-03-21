@@ -55,6 +55,7 @@
 ### 删除成绩：
 
 删除成绩与修改成绩类似，可选择根据学号或姓名删除学生，若查无此人，则提示错误并结束操作，否则删除该学生__(如果有确认删除的提示会更好)__
+
 ![](screenshot/screenshot14.png)
 
 ![](screenshot/screenshot15.png)
@@ -81,6 +82,7 @@
 ### 不及格成绩查询
 
 返回所有人所有不及格的科目
+
 ![](screenshot/screenshot19.png)
 
 ### 成绩排序
@@ -91,6 +93,7 @@
 ### 显示成绩
 
 可选择显示所有同学成绩或按班级显示成绩。若无学生，则提示无学生记录，否则格式化打印学生成绩并统计人数显示在左下角
+
 ![](screenshot/screenshot22.png)
 
 ![](screenshot/screenshot5.png)
